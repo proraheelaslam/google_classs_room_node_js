@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e9e7c25-172f-424c-a223-121fa0c8d903" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/classRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/classRoom.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classRoom.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="classRoom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/classRoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+            <state relative-caret-position="123">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleClassComponent.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../google_class_room_frontend/app/components/GoogleClassComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -70,20 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="470">
               <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="credentials.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/credentials.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="396" selection-start-line="1" selection-start-column="396" selection-end-line="1" selection-end-column="396" />
             </state>
           </provider>
         </entry>
@@ -140,6 +140,7 @@
       <find>register</find>
       <find>error</find>
       <find>authGoogle</find>
+      <find>cors</find>
       <find>scop</find>
     </findStrings>
     <dirStrings>
@@ -182,9 +183,9 @@
         <option value="$PROJECT_DIR$/controllers/product.js" />
         <option value="$PROJECT_DIR$/config/credentials.json" />
         <option value="$PROJECT_DIR$/routes/api.js" />
-        <option value="$PROJECT_DIR$/controllers/classRoom.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/controllers/classRoom.js" />
       </list>
     </option>
   </component>
@@ -319,12 +320,12 @@
       <workItem from="1588170597617" duration="596000" />
       <workItem from="1588173438228" duration="2001000" />
       <workItem from="1588200435494" duration="555000" />
-      <workItem from="1588258752978" duration="11781000" />
+      <workItem from="1588258752978" duration="15120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132326000" />
+    <option name="totallyTimeSpent" value="135665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -384,13 +385,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/2020_01_25_050653_create_products_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/apiResponse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -583,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/classRoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -608,6 +595,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../google_class_room_frontend/app/components/GoogleClassComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/classRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

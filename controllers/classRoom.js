@@ -6,9 +6,7 @@ const {google} = require('googleapis');
 const SCOPES = ['https://www.googleapis.com/auth/classroom.courses'];
 const googleApiCredential  = require('../config/credentials');
 //
-const TOKEN_PATH = {
-    "refresh_token": "1//03f3qxquAVuDNCgYIARAAGAMSNwF-L9Ircv4oEP7Xec8ebHap1WAJPhbNnMPlcdbzBVMIv9jjlE6O0P0RRTLw52K0UaaHEu7ZPMg"
-};
+
 
 /**
  *
@@ -35,18 +33,20 @@ const authGoogleClassRoom = async (req,res)=> {
 
     try {
         let token  = req.body.access_token;
+
         let accessToken = {
             "refresh_token": token
         };
         let googleAuth = getGoogleAuth(accessToken);
         let allCourses = await listCourses(googleAuth);
+
         if (allCourses && Object.keys(allCourses).length > 0) {
             return  res.send(successResponse('Course has been list' , allCourses));
         }else {
             res.send(notFoundResponse('Course not found!'));
         }
     }catch (e) {
-        return res.send(errorResponse());
+        return res.send(e);
     }
 
 };
